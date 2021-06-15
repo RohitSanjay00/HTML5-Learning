@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>WELCOME</h1>
+        <form action="www.example.com/review.php" method="get">
+            <fieldset>
+                <legend>
+                    Your details
+                </legend>
+                <label>
+                    Name:
+                    <input type="text" name="name" size="30" maxlength="100">
+                </label>
+                <br />
+                <label>
+                    Email:
+                    <input type="email" name="email" size="30" maxlength="100">
+                </label>
+                <br />
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>
+                    Your Review
+                </legend>
+                <p>
+                    <label for="Hear-about">
+                        how did your hear about us?
+                    </label>
+                    <select name="referrer" id="Hear-about">
+                        <option value="google">Google</option>
+                        <option value="Friend">Friend</option>
+                        <option value="advert">Advert</option>
+                        
+                    </select>
+                </p>
+                <p>
+                    Would you visit us again
+                    <br />
+                    <label>
+                        <input type="radio" name="rating" value="yes" />
+                        yes
+                    </label>
+                    <label>
+                        <input type="radio" name="rating" value="maybe" />
+                        maybe
+                    </label>
+                    <label>
+                        <input type="radio" name="rating" value="no" />
+                        no
+                    </label>
+
+                </p>
+                <p>
+                    <label for="comments">
+                        comments
+                        <br />
+                        <input type="checkbox" name="subcribe" checked="checked" />
+                        SIgnup for more.
+                    </label>
+                    
+
+                </p>
+                
+            </fieldset>
+        </form>
+    </body>
+</html>
