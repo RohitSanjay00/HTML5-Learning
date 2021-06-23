@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PSEUDO CLASS SELECTOR</title>
+        <style>
+            header li{
+                list-style: none;
+
+            }
+            a:link, a:visited {
+                text-decoration: none;
+                background-color: red;
+                border: 1px solid white;
+                color: black;
+                display: block;
+                width: 300px;
+                text-align: center;
+                margin-bottom: 4px;
+
+            }
+            a:hover, a:active {
+                background-color: blue;
+                color: white;
+            }
+            header li:nth-child(3) {
+                font-size: 50px;
+            }
+            section div:nth-child(odd) {
+                background-color: thistle;
+            }
+            section div:nth-child(even):hover
+            {
+                background-color: teal;
+            }
+            section div:nth-child(odd):hover{
+                background-color:tomato;
+
+            }
+
+
+        </style>
+
+    </head>
+    <body>
+        <h1>Pseudo Class Selector</h1>
+        <header>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="http://goo.gl.V0Wl6s" target="_blank"> Angual JS</a></a></li>
+                <li><a href="http://google.com">google</a></li>
+            </ul>
+        </header>
+        <section>
+            <div>DIV 1</div>
+            <div>DIV 2</div>
+            <div>DIV 3</div>
+            <div>DIV 4</div>
+            <div>DIV 5</div>
+            <div>DIV 6</div>
+            <div>DIV 7</div>
+            <div>DIV 8</div>
+            <div>DIV 9</div>
+            <div>DIV 10</div>
+            <div>DIV 11</div>
+            <div>DIV 12</div>
+            <div>DIV 13</div>
+            <div>DIV 14</div>
+            <div>DIV 15</div>
+
+            
+
+        </section>
+    </body>
+</html>
